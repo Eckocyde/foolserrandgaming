@@ -1,0 +1,88 @@
+<header>
+ <div class="main">
+ <div class="container_24">
+ <div class="grid_24">
+ <div class="headerbg">
+ <h1><a style="font-size: 36pt;" href="/"><font color="#800000" face="Monotype Corsiva" size="7">$SITE_NAME$</font></a></h1>
+ <div class="user-menu">
+ <ul>
+ <?if($USER_LOGGED_IN$)?>
+ <li><a title="Personal Page" href="javascript://" rel="nofollow" onclick="window.open('/index/8','upp','scrollbars=1,top=0,left=0,resizable=1,width=680,height=350');return false;"><font color="#800000" face="Monotype Corsiva">Profile</font></a></li>
+ <?else?>
+ <li><a href="javascript://" rel="nofollow" onclick="new _uWnd('LF',' ',-250,-110,{autosize:0,closeonesc:1,resize:1},{url:'/index/40'});return false;" title="Login">Login</a></li>
+ <?endif?>
+ <?if($USER_LOGGED_IN$)?>
+ <li><a href="/index/10"><!--<s5164>--><font color="#800000" face="Monotype Corsiva">Log out</font><!--</s>--></a></li> 
+ <?else?>
+ <li><a href="/index/3">Registration</a></li>
+ <?endif?>
+ </ul>
+ </div>
+ 
+ <nav>
+ <ul class="menu">
+ <?if($PAGE_ID$='sitePage1')?><li><a class="active" href="/"><font color="#800000" face="Monotype Corsiva">The Pit</font></a></li><?else?><li><a href="/">Home</a></li><?endif?>
+ <li><font face="Monotype Corsiva"><font color="#800000"><a href="#">Fool's</a>
+ </font></font><ul>
+ <li><a href="#"><font color="#800000" face="Monotype Corsiva">Discord</font></a></li>
+ <li><font face="Monotype Corsiva"><font color="#800000"><a href="#">You Tube</a>
+ </font></font><ul>
+ <li><a href="#"><font color="#800000" face="Monotype Corsiva">MENU ITEM</font></a></li>
+ <li><a href="#"><font color="#800000" face="Monotype Corsiva">MENU ITEM</font></a></li>
+ </ul>
+ </li>
+ <li><a href="#"><font color="#800000" face="Monotype Corsiva">MENU ITEM</font></a></li>
+ </ul>
+ </li>
+ <?if($MODULE_ID$='blog')?><li><a class="active" href="/blog"><font color="#800000" face="Monotype Corsiva">Blog</font></a></li><?else?><li><a href="/blog">Blog</a></li><?endif?>
+ <?if($MODULE_ID$='forum')?><li><a class="active" href="/forum"><font color="#800000" face="Monotype Corsiva">Forum</font></a></li><?else?><li><a href="/forum">Forum</a></li><?endif?>
+ <?if($MODULE_ID$='photo')?><li><a class="active" href="/photo"><font color="#800000" face="Monotype Corsiva">Photo</font></a></li><?else?><li><a href="/photo">Photo</a></li><?endif?>
+ <?if($PAGE_ID$='sitePage3')?><li><a class="active" href="/index/0-3"><font color="#800000" face="Monotype Corsiva">Contacts</font></a></li><?else?><li><a href="/index/0-3">Contacts</a></li><?endif?>
+
+ </ul>
+ <form id="search-form" style="margin:0" onsubmit="this.sfSbm.disabled=true" action="/search/" method="get">
+ <fieldset>
+ <label class="keywords">
+ <input name="q" class="queryField" type="text" size="10" value="Search..." onblur="if(this.value=='') this.value='Search...'" onfocus="if(this.value =='Search...' ) this.value=''">
+ </label>
+ <a onclick="document.getElementById('search-form').submit()"></a>
+ </fieldset>
+ </form>
+ 
+ </nav>
+ </div>
+ <div class="clear"></div>
+ <div class="slider-wrapper">
+ <div id="slide"> 
+ <!-- slider -->
+ <div class="slider">
+ <ul class="items">
+ <li><img alt="" src="/slides/esomain.png"><div class="banner"><strong>The Elder Scrolls Online</strong> <a class="buttonslider" href="https://www.elderscrollsonline.com/en-us/home">Site</a></div></li>
+ <li><img alt="" src="/slides/anthem_party.png"><div class="banner"><strong>Anthem</strong> <a class="buttonslider" href="https://www.ea.com/games/anthem">Site</a></div></li>
+ <li><img alt="" src="/slides/Apexmain.png"><div class="banner"><strong>Apex Legends</strong> <a class="buttonslider" href="https://www.ea.com/games/apex-legends">Site</a></div></li>
+ <li><img alt="" src="/slides/seaofthieves_main.png"><div class="banner"><strong>Sea Of Thieves</strong> <a class="buttonslider" href="https://www.seaofthieves.com">Site</a></div></li>
+ <li><img alt="" src="/slides/cp_main.png"><div class="banner"><strong>CyberPunk 2077</strong> <a class="buttonslider" href="https://www.cyberpunk.net/en/">Site</a></div></li>
+ <li><img alt="" src="/slides/falloutmain.png"><div class="banner"><strong>Fallout 76</strong> <a class="buttonslider" href="https://fallout.bethesda.net/en/">Site</a></div></li>
+ </ul>
+ </div>
+ <!-- slider end --> 
+ <div class="pag">
+ <div class="img-pags">
+ <ul>
+ <li><a href="#"><img width="80" height="60" alt="" src="/slides/thumbs/esothumb.png"></a></li>
+ <li><a href="#"><img alt="" src="/slides/thumbs/anthemthumb.png"></a></li>
+ <li><a href="#"><img alt="" src="/slides/thumbs/apexthumb.png"></a></li>
+ <li><a href="#"><img alt="" src="/slides/thumbs/Sot_thumb.png"></a></li>
+ <li><a href="#"><img alt="" src="/slides/thumbs/cpthumb.png"></a></li>
+ <li><a href="#"><img alt="" src="/slides/thumbs/fallout76.jpg"></a></li>
+ </ul> 
+ </div> 
+ </div>
+ </div> 
+ </div>
+</div>
+ </div> 
+ <div class="clear"></div>
+ </div> 
+ 
+ </header>

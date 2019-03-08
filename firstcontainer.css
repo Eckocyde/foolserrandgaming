@@ -1,0 +1,151 @@
+<!-- <block1> -->
+<?if($BASKET$)?>
+<div class="wrapper">
+
+ <h4><!-- <bt> --><!--<s5441>-->Shopping cart<!--</s>--><!-- </bt> --></h4>
+ <ul class="bg1 text"><!-- <bc> -->$BASKET$<!-- </bc> --> </ul><br>
+</div>
+<?endif?>
+<!-- </block1> -->
+
+<!-- <block2> -->
+<?if($CURRENCY$)?>
+<div class="wrapper">
+
+ <h4><!-- <bt> --><!--<s5442>-->Currency<!--</s>--><!-- </bt> --></h4>
+ <ul class="bg1 text"><!-- <bc> -->$CURRENCY$<hr><?$RATE$()?><!-- </bc> --> </ul><br>
+</div>
+<?endif?>
+<!-- </block2> -->
+
+<!-- <block3> -->
+<?if($SPEC_FILTER$)?>
+<div class="wrapper">
+
+ <h4><!-- <bt> --><!--<s50110>-->Search filter<!--</s>--><!-- </bt> --></h4>
+ <ul class="bg1 text"><!-- <bc> -->$SPEC_FILTER$<!-- </bc> --> </ul><br>
+</div>
+<?endif?>
+<!-- </block3> -->
+
+<!-- <block4> -->
+<?if($SHFEED$)?>
+<div class="wrapper">
+
+ <h4><!-- <bt> --><!--<s5441>-->Shopping cart<!--</s>--><!-- </bt> --></h4>
+ <ul class="bg1 text"><!-- <bc> -->$SHFEED$<!-- </bc> --> </ul><br>
+</div>
+<?endif?>
+<!-- </block4> -->
+
+<!-- <block5> -->
+<?if($SMENU_1$)?>
+<div class="wrapper">
+
+ <h4><!-- <bt> --><!--<s5184>-->Site menu<!--</s>--><!-- </bt> --></h4>
+ <ul class="bg1 text"><!-- <bc> -->$SMENU_1$<!-- </bc> --> </ul><br>
+</div>
+<?endif?>
+<!-- </block5> -->
+
+<!-- <block6> -->
+<?if($CATEGORIES$)?>
+<div class="wrapper">
+
+ <h4><!-- <bt> --><!--<s5351>-->Section categories<!--</s>--><!-- </bt> --></h4>
+ <ul class="bg1 text"><!-- <bc> -->$CATEGORIES$<!-- </bc> --> </ul><br>
+</div>
+<?endif?>
+<!-- </block6> -->
+
+<!-- <block7> -->
+<?if($LOGIN_FORM$)?>
+<div class="wrapper">
+
+ <h4><!-- <bt> --><!--<s5158>-->Log In<!--</s>--><!-- </bt> --></h4>
+ <ul class="bg1 text"><!-- <bc> -->$LOGIN_FORM$<!-- </bc> --> </ul><br>
+</div>
+<?endif?>
+<!-- </block7> -->
+
+<!-- <block8> -->
+<?if($SEARCH_FORM$)?>
+<div class="wrapper">
+
+ <h4><!-- <bt> --><!--<s3163>-->Search<!--</s>--><!-- </bt> --></h4>
+ <ul class="bg1 text"><div align="center"><!-- <bc> -->$SEARCH_FORM$<!-- </bc> --></div> </ul><br>
+</div>
+<?endif?>
+<!-- </block8> -->
+
+<!-- <block9> -->
+<?if($CHANNELS$)?>
+<div class="wrapper">
+
+ <h4><!-- <bt> --><!--<s6439>-->Channel categories<!--</s>--><!-- </bt> --></h4>
+ <ul class="bg1 text"><!-- <bc> -->$CHANNELS$<!-- </bc> --> </ul><br>
+</div>
+<?endif?>
+<!-- </block9> -->
+
+<!-- <block10> -->
+<?if($CALENDAR$)?>
+<div class="wrapper">
+
+ <h4><!-- <bt> --><!--<s5171>-->Calendar<!--</s>--><!-- </bt> --></h4>
+ <ul class="bg1 text"><div align="center"><!-- <bc> -->$CALENDAR$<!-- </bc> --></div> </ul><br>
+</div>
+<?endif?>
+<!-- </block10> -->
+
+<!-- <block11> -->
+<?if($ARCHIVE_LINKS$)?>
+<div class="wrapper">
+
+ <h4><!-- <bt> --><!--<s5347>-->Entries archive<!--</s>--><!-- </bt> --></h4>
+ <ul class="bg1 text"><!-- <bc> -->$ARCHIVE_LINKS$<!-- </bc> --> </ul><br>
+</div>
+<?endif?>
+<!-- </block11> -->
+
+<!-- <block12> -->
+<?if($POLL$)?>
+<div class="wrapper">
+
+ <h4><!-- <bt> --><!--<s5207>-->Our poll<!--</s>--><!-- </bt> --></h4>
+ <ul class="bg1 text"><!-- <bc> -->$POLL$<!-- </bc> --> </ul><br>
+</div>
+<?endif?>
+<!-- </block12> -->
+
+<!-- <block13> -->
+<?if($CHAT_BOX$)?>
+<div class="wrapper">
+
+ <h4><!-- <bt> --><!--<s3199>-->Chat Box<!--</s>--><!-- </bt> --></h4>
+ <ul class="bg1 text"><!-- <bc> -->$CHAT_BOX$<!-- </bc> --> </ul><br>
+</div>
+<?endif?>
+<!-- </block13> -->
+
+<!-- <block14> -->
+<div class="wrapper">
+
+ <h4><!-- <bt> --><!--<s5204>-->Site friends<!--</s>--><!-- </bt> --></h4>
+ <ul class="bg1 text"><!-- <bc> --><!--<s1546>--><ul>
+<li><a href="http://blog.ucoz.com/" target="_blank" rel="noopener nofollow">Official Blog</a></li>
+<li><a href="http://forum.ucoz.com/" target="_blank" rel="noopener nofollow">uCoz Community</a></li>
+<li><a href="http://faq.ucoz.com/" target="_blank" rel="noopener nofollow">FAQ</a></li>
+</ul><!--</s>--><!-- </bc> --> </ul><br>
+</div>
+<!-- </block14> -->
+
+<!-- <block15> -->
+<?if($COUNTER$ || $ONLINE_COUNTER$)?>
+<div class="wrapper">
+
+ <h4><!-- <bt> --><!--<s5195>-->Statistics<!--</s>--><!-- </bt> --></h4>
+ <ul class="bg1 text"><div align="center"><!-- <bc> -->$COUNTER$<?if($ONLINE_COUNTER$)?><hr />$ONLINE_COUNTER$$ONLINE_USERS_LIST$<?endif?><!-- </bc> --></div> </ul><br>
+</div>
+<?endif?>
+<!-- </block15> -->
